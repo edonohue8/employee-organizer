@@ -121,7 +121,7 @@ async function addEmployee() {
         let positionDetails = positions.find(obj => obj.title === answers.role);
         let manager = managers.find(obj => obj.Manager === answers.manager);
         db.query("INSERT INTO employee (first_name, last_name, role_id, manager_id) VALUES (?)", [[answers.firstName.trim(), answers.lastName.trim(), positionDetails.id, manager.id]]);
-        console.log("\x1b[32m", `${answers.firstName} has been added to the database.`);
+        console.log("\x1b[32m", `${answers.firstName} ${answers.lastName} has been added to the database.`);
         runApp();
     });
 };
