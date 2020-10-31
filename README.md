@@ -14,18 +14,10 @@ node employee-organizer.js
 
 ## Installation
 
-To install necessary dependencies, run the following commands:
+To install necessary dependencies, run the following command:
 
 ```
-npm i mysql
-```
-
-```
-npm i inquirer
-```
-
-```
-npm i console.table
+npm install
 ```
 
 ## Author
