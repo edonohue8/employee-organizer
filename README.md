@@ -10,6 +10,8 @@ node employee-organizer.js
 
 * [Installation](#installation)
 
+* [Screenshots](#screenshots)
+
 * [Author](#author)
 
 ## Installation
@@ -19,6 +21,17 @@ To install necessary dependencies, run the following command:
 ```
 npm install
 ```
+
+## Screenshots
+
+* **Terminal - Adding Employee**
+<img src="assets/emp.png" width="600">
+
+* **Terminal - Adding Role**
+<img src="assets/role.png" width="600">
+
+* **Terminal - Adding Department**
+<img src="assets/dept.png" width="600">
 
 ## Author
 
