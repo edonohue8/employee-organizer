@@ -34,7 +34,9 @@ Lastly, I used [Screencastify](https://www.screencastify.com/) to record a demon
 
 ## Installation
 
-Please first set-up database by opening and executing schema and seed sql files in db folder with MySqlWorkbench.  To install necessary dependencies, run the following command:
+Please first set-up database by opening and executing schema and seed sql files in db folder with MySqlWorkbench.  After database is ready to be queried, open 'employee-organizer.js' to make sure your connection port is correct on line 40 and to enter your MySql root password on line 42.
+
+To install necessary dependencies, run the following command:
 
 ```
 npm install
