@@ -26,7 +26,7 @@ In this assignment, I was tasked with building a command-line app to view/organi
 
 My first step was to create my database schema and seed files in MySql.  My tables included department, role, and employee. 
 
-Afterwards, I installed the required node packages and declare them in my JavaScript file.  I then created a connection to my database in MySql.
+Afterwards, I installed the required node packages and declared them in my JavaScript file.  I then created a connection to my database in MySql.
 
 Next, I set up my tables using console.table.  Then, I worked on my prompt functionality utilizing inquirer.
 
