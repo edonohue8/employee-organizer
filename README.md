@@ -1,11 +1,5 @@
 # MySQL: Employee Tracker
 
-The application can be initialized by entering the command:
-
-```
-node employee-organizer.js
-```
-
 ## Table of Contents
 
 * [Description](#description)
@@ -14,7 +8,7 @@ node employee-organizer.js
 
 * [Installation](#installation)
 
-* [Technology Used](#technology)
+* [Technology](#technology)
 
 * [Dependencies](#dependencies)
 
@@ -44,7 +38,13 @@ Please first set-up database by opening and executing schema and seed sql files 
 npm install
 ```
 
-## Technology Used
+The application can be initialized by entering the command:
+
+```
+node employee-organizer.js
+```
+
+## Technology
 
 * JavaScript
 
