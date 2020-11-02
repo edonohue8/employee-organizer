@@ -8,19 +8,62 @@ node employee-organizer.js
 
 ## Table of Contents
 
+* [Description](#description)
+
+* [Process](#process)
+
 * [Installation](#installation)
+
+* [Technology Used](#technology)
+
+* [Dependencies](#dependencies)
+
+* [Demo](#demo)
 
 * [Screenshots](#screenshots)
 
 * [Author](#author)
 
+## Description
+
+In this assignment, I was tasked with building a command-line app to view/organize an employee database using node, inquirer, and MySql.
+
+## Process
+
+My first step was to install the required node packages and declare them in my JavaScript file.  I then created a connection to my database in MySql.
+
+Next, I set up my tables using console.table.  Then, I worked on my prompt functionality utilizing inquirer.
+
+Lastly, I used [Screencastify](https://www.screencastify.com/) to record a demonstration of myself illustrating how the app functions.
+
 ## Installation
 
-To install necessary dependencies, run the following command:
+Please first set-up database by opening and executing schema and seed sql files in db folder with MySqlWorkbench.  To install necessary dependencies, run the following command:
 
 ```
 npm install
 ```
+
+## Technology Used
+
+* JavaScript
+
+* Node.js
+
+* MySql
+
+## Dependencies
+
+* [MySql](https://www.npmjs.com/package/mysql)
+
+* [InquirerJs](https://www.npmjs.com/package/inquirer/v/0.2.3)
+
+* [console.table](https://www.npmjs.com/package/console.table)
+
+## Demo
+### Video Demonstration Link
+[Click here](https://drive.google.com/file/d/1dfRsXYtHTc_r4Pfcd1ZtbcDdIgc0mjkr/view?usp=sharing)
+(After clicking link, please view in full-screen.)
 
 ## Screenshots
 
